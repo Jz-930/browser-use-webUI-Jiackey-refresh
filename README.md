@@ -10,7 +10,8 @@ This repository is an enhanced, robust modification of the standard [Browser-Use
 
 1. **True Autonomous Failsafe**: Stripped out hidden secondary LLM calls that historically panic unverified API keys, allowing standard HTTP tunnels via the `openai` shape.
 2. **First-Class Open-Weight Support**: Tuned to directly embrace UI routing for multi-billion parameter arrays (including `google/gemma-4-31b-it` and heavily customized logic backends).
-3. **No External Leaks**: Send DOMs and agent logs to *your* hosted server without giving third parties a scrape.
+3. **Speed & Context Optimization**: Custom-injected `Screenshot Resolution` controls directly into the Agent Settings panel, allowing developers to instantly step down computer vision grid fidelity (e.g. 1920x1080 -> 1280x720) to exponentially reduce KV-Cache token bloat and save massive TTFT speeds locally or on RunPod.
+4. **No External Leaks**: Send DOMs and agent logs to *your* hosted server without giving third parties a scrape.
 
 ---
 
